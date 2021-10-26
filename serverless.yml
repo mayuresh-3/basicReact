@@ -1,2 +1,11 @@
-component: website
-
+component: website # A Component in the Registry
+name: testdemo # The name of your Component Instance
+stage: ${env:STAGE}
+org: mayuresh
+provider: mayuresh
+inputs: # The configuration the Component accepts
+  src: ./build
+  region: ${env:REGION}
+  bucketName: ${env:STAGE}-react-app
+  indexDocument: index.html
+  errorDocument: index.html
