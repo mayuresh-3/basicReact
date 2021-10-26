@@ -1,8 +1,8 @@
 component: website # A Component in the Registry
-name: testdemo # The name of your Component Instance
+name: reactbasic # The name of your Component Instance
 stage: ${env:STAGE}
-org: mayuresh
-provider: mayuresh
+org: mayuresh3
+provider: reactbasic
 inputs: # The configuration the Component accepts
   src: ./build
   region: ${env:REGION}
