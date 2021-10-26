@@ -19,6 +19,9 @@ jobs:
       - uses: chrnorm/deployment-action@releases/v1
         name: Deploying to dev
         id: deployment
+        with:
+          token: "${{ github.token }}"
+          environment: dev
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.2
