@@ -38,6 +38,6 @@ jobs:
           unset CI
           yarn build
 
-      - name: Deploy demo-app
+      - name: Deploy react-app
         run: |
           npx serverless deploy
