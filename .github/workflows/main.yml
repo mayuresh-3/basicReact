@@ -39,4 +39,4 @@ jobs:
 
       - name: Deploy demo-app
         run: |
-          npx serverless deploy
+          npx serverless
