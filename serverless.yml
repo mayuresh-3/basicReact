@@ -6,6 +6,6 @@ provider: reactbasic
 inputs: # The configuration the Component accepts
   src: ./build
   region: ${env:REGION}
-  bucketName: ${env:STAGE}-react-app
+  bucketName: ${env:STAGE}-react-app-deploy
   indexDocument: index.html
   errorDocument: index.html
